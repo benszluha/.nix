@@ -65,6 +65,8 @@
     geany
     vscode
 
+    jupyter-all
+
     python312
     python312Packages.pip
     python312Packages.wheel
