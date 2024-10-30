@@ -65,7 +65,7 @@
     geany
     vscode
 
-    jupyter-all
+    jupyter
 
     python312
     python312Packages.pip
