@@ -19,7 +19,7 @@
 
         shellAliases = {
             nix_rebuild = "sudo nixos-rebuild switch --impure --flake ~/.nix";
-            nix_push = "cd ~/.nix && git push -u origin main" 
+            nix_push = "cd ~/.nix && git push -u origin main"; 
             win_host = "cd /mnt/c";
         }; #Shell Aliases (zsh)
 
