@@ -46,7 +46,7 @@
         pciutils
         usbutils
         p7zip
-        zip
+        unzip
         rar
     ]; #home.packages
 
