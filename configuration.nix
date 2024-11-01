@@ -15,6 +15,7 @@
   imports = [
     # include NixOS-WSL modules
     <nixos-wsl/modules>
+    ./jupyter.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
