@@ -6,5 +6,7 @@
     ip = "10.230.126.114";
     port = 1234;
     notebookDir = "~/.notebooks";
+    user = "nixos";
+    group = "wheel";
   };
 }
