@@ -7,6 +7,7 @@
     port = 1234;
     notebookDir = "~/.notebooks";
     user = "nixos";
+    password = "nixos";
     group = "wheel";
   };
 }
