@@ -73,7 +73,7 @@
     python312Packages.pip
     python312Packages.wheel
 
-    wine
+    wine64
   ];  
 
   programs.ssh = {
