@@ -3,7 +3,7 @@
 {
   services.postgressql = {
     enable = true;
-    package = postgresql_16;
+    package = "postgresql_16";
     #settings = {
     #  port = 4321;
     #};
