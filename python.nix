@@ -4,7 +4,7 @@
 
 {
   environment.systemPackages = [
-    pkgs.python
+    pkgs.python3
     pkgs.poetry
   ]; #System Packages
 
