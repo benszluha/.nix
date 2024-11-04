@@ -4,9 +4,9 @@
 
 {
   environment.systemPackages = [
-    pkgs.python312
-    pkgs.python312Packages.wheel
-    pkgs.python312Packages.poetry-core
+    pkgs.python
+    pkgs.wheel
+    pkgs.poetry
   ]; #System Packages
 
   
