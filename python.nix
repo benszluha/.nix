@@ -5,7 +5,6 @@
 {
   environment.systemPackages = [
     pkgs.python
-    pkgs.wheel
     pkgs.poetry
   ]; #System Packages
 
