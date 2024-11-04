@@ -16,6 +16,7 @@
     # include NixOS-WSL modules
     <nixos-wsl/modules>
     ./jupyter.nix
+    ./postgres.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
