@@ -1,7 +1,7 @@
 {lib, pkgs, ...}:
 
 {
-  services.postgressql {
+  services.postgressql = {
     enable = true;
     package = postgresql_16;
     #settings = {
