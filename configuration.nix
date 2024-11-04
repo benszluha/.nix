@@ -17,6 +17,7 @@
     <nixos-wsl/modules>
     ./jupyter.nix
     ./postgres.nix
+    ./python.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
@@ -69,10 +70,6 @@
     vscode
 
     jupyter
-
-    python312
-    python312Packages.pip
-    python312Packages.wheel
   ];  
 
   programs.ssh = {
