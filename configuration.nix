@@ -18,7 +18,7 @@
     ./jupyter.nix
     ./postgres.nix
     ./python.nix
-    ./focalboard.nix
+    ./docker.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
