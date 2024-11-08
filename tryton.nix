@@ -14,7 +14,7 @@
       ExecStart = "docker run -d -p 4321:8000 openlabs/tryton";
       WorkingDirectory = "/home/tryton-user/tryton";
       User = "tryton-user";
-      Group = "tryton-user";
+      Group = "wheel";
     };
   };
 
