@@ -20,6 +20,7 @@
     ./python.nix
     ./docker.nix
     ./focalboard.nix
+    ./erp.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
