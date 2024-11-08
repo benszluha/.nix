@@ -1,13 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    docker
-  ];
-
-  services.docker.enable = true;
-  services.docker.package = pkgs.docker;
-
   users.users.tryton-user = {
     isNormalUser = true;
     extraGroups = [ "docker" ];
