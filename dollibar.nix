@@ -13,8 +13,6 @@
   services.mysql.enable = true;
   services.nginx.enable = true;
   services.nginx.virtualHosts."localhost" = {
-    enableACME = true;
-    forceSSL = true;
     root = "/var/www/dolibarr/htdocs";
     locations."/".proxyPass = "http://127.0.0.1:8000";
   };
