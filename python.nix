@@ -6,6 +6,7 @@
   environment.systemPackages = [
     pkgs.python3
     pkgs.poetry
+    pkgs.python3Packages.pip
   ]; #System Packages
 
   
