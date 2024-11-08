@@ -1,7 +1,7 @@
 {config, lib, pkgs, ...}:
 
 {
-  systemd.services.focalboard = {
+  systemd.services.erp = {
     description = "Focalboard Container";
     after = [ "network.target" ];
     serviceConfig = {
