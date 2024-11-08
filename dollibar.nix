@@ -10,7 +10,7 @@
     dolibarr
   ];
 
-  services.mysql.enable = true;
+  #services.mysql.enable = true;
   services.nginx.enable = true;
   services.nginx.virtualHosts."localhost" = {
     root = "/var/www/dolibarr/htdocs";
