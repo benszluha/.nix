@@ -78,15 +78,6 @@
     startAgent = true;
   };
 
-
-  #dolibarr
-  services.dolibarr = {
-    enable = true;
-    domain = "doli.localhost";
-    preInstalled = true;
-    initialDbPasswordFile = "/home/nixos/dbpass";
-  };
-
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It's perfectly fine and recommended to leave
