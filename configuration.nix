@@ -20,6 +20,7 @@
     ./python.nix
     ./docker.nix
     ./focalboard.nix
+    ./tryton.nix
   ];
 
   time.timeZone = "Africa/Johannesburg";
