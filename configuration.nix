@@ -84,7 +84,7 @@
     enable = true;
     domain = "doli.localhost";
     preInstalled = true;
-    initialDbPasswordFile = "/run/keys/dolibarr-db-ini-password";
+    initialDbPasswordFile = "/home/nixos/dbpass";
   };
 
   # This value determines the NixOS release from which the default
