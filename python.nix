@@ -7,6 +7,7 @@
     pkgs.python3
     pkgs.poetry
     pkgs.python3Packages.pip
+    pkgs.python3Packages.gunicorn
   ]; #System Packages
 
   
