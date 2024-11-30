@@ -5,8 +5,8 @@
 {
   environment.systemPackages = [
     pkgs.python3
-    pkgs.pipx
-    pkgs.python3Packages.poetry
+    pkgs.poetry
+    pkgs.python3Packages.pip
     pkgs.python3Packages.gunicorn
   ]; #System Packages
 
