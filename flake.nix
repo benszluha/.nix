@@ -14,6 +14,7 @@
       system = "x86_64-linux";
       modules = [
         ./configuration.nix
+        ./mongodb.nix
         
         home-manager.nixosModules.home-manager
         {
