@@ -73,6 +73,8 @@
     vscode
 
     jupyter
+
+    mongodb-ce
   ];  
 
   programs.ssh = {
