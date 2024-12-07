@@ -69,10 +69,9 @@
     direnv
     nix-direnv
 
-    geany
     vscode
 
-    jupyter
+    lazydocker
   ];  
 
   programs.ssh = {
