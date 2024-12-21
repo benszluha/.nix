@@ -5,5 +5,11 @@
     enable = true;
     enableNginx = true;
     virtualHost = "firefly.localhost";
+    dataDir = "/var/lib/firefly-iii";
+
+    settings = {
+      APP_KEY_FILE = "/home/nixos/.firefly-iii.key";
+      APP_ENV = "production"
+    };
   };
 }
