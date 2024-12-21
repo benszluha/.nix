@@ -15,7 +15,6 @@
       modules = [
         ./configuration.nix
         ./database.nix
-        ./firefly.nix
         
         home-manager.nixosModules.home-manager
         {
