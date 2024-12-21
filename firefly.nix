@@ -4,6 +4,6 @@
   services.firefly-iii = {
     enable = true;
     enableNginx = true;
-    virtualHost = "firefly.localhost"
+    virtualHost = "firefly.localhost";
   };
 }
