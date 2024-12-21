@@ -9,7 +9,7 @@
 
     settings = {
       APP_KEY_FILE = "/home/nixos/.firefly-iii.key";
-      APP_ENV = "production"
+      APP_ENV = "production";
     };
   };
 }
