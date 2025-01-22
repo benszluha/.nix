@@ -15,7 +15,7 @@
       modules = [
         ./configuration.nix
         ./database.nix
-        
+        ./odoo.nix
         home-manager.nixosModules.home-manager
         {
           home-manager = {
